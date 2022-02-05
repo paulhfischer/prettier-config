@@ -1,0 +1,13 @@
+- id: lint
+  name: Format most files
+  entry: prettier
+  language: node
+  args:
+    - '--list-different'
+    - '--write'
+    - '--loglevel=silent'
+  additional_dependencies:
+    - prettier@2.5.1
+  types:
+    - file
+  exclude: (^node_modules|\.html$|\.php$|\.js$|\.jsx$|\.ts$|\.tsx$|\.css$|\.scss$|\.sass$)

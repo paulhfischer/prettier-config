@@ -1,0 +1,30 @@
+{
+    "name": "@paulhfischer/prettier-config",
+    "version": "1.1.0",
+    "description": "Prettier-config for projects.",
+    "main": "index.js",
+    "author": "Paul Fischer <paul.fischer@mailbox.org>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/paulhfischer/prettier-config"
+    },
+    "license": "GPL-3.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "eslintConfig": {
+        "extends": [
+            "@paulhfischer/eslint-config-javascript"
+        ]
+    },
+    "prettier": ".",
+    "peerDependencies": {
+        "prettier": "2.5.1"
+    },
+    "files": [
+        "index.js"
+    ],
+    "engines": {
+        "npm": ">=7"
+    }
+}
