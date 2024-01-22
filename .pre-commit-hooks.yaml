@@ -7,7 +7,7 @@
     - '--write'
     - '--loglevel=silent'
   additional_dependencies:
-    - prettier@3.2.2
+    - prettier@3.2.4
   types:
     - file
   exclude: (^node_modules|\.html$|\.php$|\.js$|\.jsx$|\.ts$|\.tsx$|\.css$|\.scss$|\.sass$)
