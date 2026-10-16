@@ -1,4 +1,5 @@
-module.exports = {
+/** @satisfies {import('prettier').Config} */
+const config = {
     printWidth: 100,
     tabWidth: 4,
     trailingComma: 'all',
@@ -12,3 +13,5 @@ module.exports = {
         },
     ],
 };
+
+module.exports = config;

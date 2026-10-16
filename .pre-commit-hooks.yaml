@@ -3,11 +3,12 @@
   entry: prettier
   language: node
   args:
-    - '--list-different'
     - '--write'
-    - '--loglevel=silent'
+    - '--list-different'
+    - '--ignore-unknown'
+    - '--log-level=warn'
   additional_dependencies:
     - prettier@3.9.10
   types:
     - file
-  exclude: (^node_modules|\.html$|\.php$|\.js$|\.jsx$|\.ts$|\.tsx$|\.css$|\.scss$|\.sass$)
+  exclude: ((^|/)node_modules/|\.min\.(css|js)$|\.(html|php)$)
