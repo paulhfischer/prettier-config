@@ -1,6 +1,6 @@
 {
     "name": "@paulhfischer/prettier-config",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Prettier-config for projects.",
     "main": "index.js",
     "author": "Paul Fischer <paul.fischer@mailbox.org>",
@@ -12,7 +12,7 @@
         "access": "public"
     },
     "peerDependencies": {
-        "prettier": "^3.9.10"
+        "prettier": "3.9.10"
     },
     "files": [
         "index.js"
